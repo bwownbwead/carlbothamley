@@ -1,6 +1,6 @@
 <template>
 	<div>
-		Home
+		Valkyria
 	</div>
 </template>
 
