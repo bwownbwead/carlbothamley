@@ -7,9 +7,7 @@
                 </nuxt-link>
             </li>
             <li>
-                <nuxt-link to="/about">
-                    About
-                </nuxt-link>
+                <a href="/CV_CarlBothamley.pdf">CV</a>
             </li>
             <li>
                 <nuxt-link to="/about">
