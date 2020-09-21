@@ -1,29 +1,86 @@
 <template>
 	<div class="site-wrap">
-        <div class="mb-6">
-            <navigation />
+        <site-header />
+
+        <div class="page-layout">
+            <div class="side-bar">
+                <side-bar />
+            </div>
+            <div class="page-content">
+                <Nuxt />
+            </div>
         </div>
-		<Nuxt />
+
+        <footer class="mt-8 lg:hidden">
+            <social-links />
+        </footer>
 	</div>
 </template>
 
 <script>
-    import Navigation from '~/components/Navigation';
+    import SiteHeader from '~/components/SiteHeader';
+    import SideBar from '~/components/SideBar';
 
     export default {
         components: {
-            Navigation
+            SiteHeader,
+            SideBar
         }
     }
 </script>
 
 <style lang="scss">
     html {
-        font-family: 'Source Sans Pro', sans-serif;
+        @apply font-body;
+    }
+
+    body {
+        @apply px-4 pt-4;
+
+        @screen sm {
+            @apply px-6 pt-6;
+        }
+
+        @screen md {
+            @apply px-10 pt-12;
+        }
+
+        @screen lg {
+            @apply pt-20;
+        }
+
+        @screen xl {
+            @apply px-0;
+        }
     }
 
     .site-wrap {
-        max-width: 1070px;
+        max-width: 1080px;
         margin: 0 auto;
+    }
+
+    .page-layout {
+        @screen lg {
+            display: flex;
+        }
+    }
+
+    .side-bar {
+        @screen lg {
+            width: 230px;
+            margin-right: 40px;
+        }
+
+        @screen xl {
+            width: 240px;
+            margin-right: 70px;
+        }
+    }
+
+    .page-content {
+        background-color: red;
+        @screen lg {
+            flex-grow: 1;
+        }
     }
 </style>

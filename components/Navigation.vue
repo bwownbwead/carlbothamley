@@ -1,15 +1,15 @@
 <template>
-    <div>
-        <ul>
-            <li>
+    <div class="navigation">
+        <ul class="list-none flex justify-between text-lg">
+            <li class="mr-8 lg:mr-6">
                 <nuxt-link to="/">
                     Home
                 </nuxt-link>
             </li>
-            <li>
-                <a href="/CV_CarlBothamley.pdf">CV</a>
+            <li class="mr-8 lg:mr-6">
+                <a href="/CV_CarlBothamley.pdf" target="_blank">CV</a>
             </li>
-            <li>
+            <li class="mr-8 lg:mr-6">
                 <nuxt-link to="/about">
                     About
                 </nuxt-link>
@@ -28,3 +28,14 @@
         name: 'navigation'
     }
 </script>
+
+<style lang="scss" scoped>
+    
+    .navigation {
+        max-width: 300px;
+    }
+
+    .nuxt-link-exact-active {
+        @apply font-semibold;
+    }
+</style>
