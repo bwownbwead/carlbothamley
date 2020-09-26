@@ -35,10 +35,10 @@
     }
 
     body {
-        @apply px-4 pt-4;
+        @apply px-4 py-4;
 
         @screen sm {
-            @apply px-6 pt-6;
+            @apply px-6 py-6;
         }
 
         @screen md {
@@ -78,7 +78,6 @@
     }
 
     .page-content {
-        background-color: red;
         @screen lg {
             flex-grow: 1;
         }

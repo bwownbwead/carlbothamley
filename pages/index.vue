@@ -1,11 +1,15 @@
 <template>
 	<div>
-		Home
+		<work-list />
 	</div>
 </template>
 
 <script>
-	export default {
+    import WorkList from '~/components/WorkList';
 
+	export default {
+        components: {
+            WorkList
+        }
     }
 </script>
