@@ -8,7 +8,7 @@
                     :isHomePage="isHomePage"
                 />
             </div>
-            <div class="page-content">
+            <div class="page-content lg:pt-10 xl:pt-20">
                 <Nuxt />
             </div>
         </div>
@@ -74,14 +74,16 @@
     }
 
     .side-bar {
+        flex-shrink: 0;
+
         @screen lg {
             width: 230px;
-            margin-right: 40px;
+            margin-right: 50px;
         }
 
         @screen xl {
             width: 240px;
-            margin-right: 70px;
+            margin-right: 100px;
         }
     }
 

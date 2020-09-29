@@ -9,7 +9,7 @@
                     :key="social.platform"
                     :href="social.url"
                 >
-                    <img :src="social.icon" :alt="social.platform">
+                    <span v-html="social.icon" />
                 </a>
             </li>
         </ul>
@@ -34,10 +34,12 @@
 <style lang="scss" scoped>
     
     li {
-        max-width: 30px;
+        a, span {
+            display: inline-block;
+        }
 
-        @screen lg {
-            max-width: 20px;            
+        ::v-deep svg {
+            @apply w-5;
         }
     }
     
