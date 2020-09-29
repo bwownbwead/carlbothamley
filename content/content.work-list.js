@@ -6,7 +6,7 @@ export default {
             type: "Quickview",
             media: {
                 image: {
-                    src: "https://via.placeholder.com/1050x450"
+                    src: "https://via.placeholder.com/1050x400"
                 }
             },
             link: "#"
@@ -16,7 +16,7 @@ export default {
             type: "Video",
             media: {
                 image: {
-                    src: "https://via.placeholder.com/1050x450"
+                    src: "https://via.placeholder.com/1050x400"
                 }
             },
             link: "#"
@@ -26,7 +26,7 @@ export default {
             type: "Quickview",
             media: {
                 image: {
-                    src: "https://via.placeholder.com/1050x450"
+                    src: "https://via.placeholder.com/1050x400"
                 }
             },
             link: "#"
@@ -36,7 +36,7 @@ export default {
             type: "Spotlight",
             media: {
                 image: {
-                    src: "https://via.placeholder.com/1050x450"
+                    src: "https://via.placeholder.com/1050x400"
                 }
             },
             link: "/mars"
@@ -46,7 +46,7 @@ export default {
             type: "Spotlight",
             media: {
                 image: {
-                    src: "https://via.placeholder.com/1050x450"
+                    src: "https://via.placeholder.com/1050x400"
                 }
             },
             link: "/swire"
@@ -56,7 +56,7 @@ export default {
             type: "Spotlight",
             media: {
                 image: {
-                    src: "https://via.placeholder.com/1050x450"
+                    src: "https://via.placeholder.com/1050x400"
                 }
             },
             link: "/valkyria"

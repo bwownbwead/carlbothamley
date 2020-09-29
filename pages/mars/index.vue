@@ -22,8 +22,8 @@
             />
         </div>
 
-        <p><a href="https://www.imdb.com/title/tt4939064/">https://www.imdb.com/title/tt4939064/</a></p>
-        <p><a href="https://www.framestore.com/?language=en">https://www.framestore.com/?language=en</a></p>
+        <p><a href="https://www.imdb.com/title/tt4939064/" target="_blank">https://www.imdb.com/title/tt4939064/</a></p>
+        <p><a href="https://www.framestore.com/?language=en" target="_blank">https://www.framestore.com/?language=en</a></p>
 
         <back-to-work-link />
 	</div>
