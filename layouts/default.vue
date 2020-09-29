@@ -88,6 +88,8 @@
     }
 
     .page-content {
+        position: relative;
+        
         @screen lg {
             flex-grow: 1;
         }

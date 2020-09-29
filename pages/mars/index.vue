@@ -25,6 +25,7 @@
         <p><a href="https://www.imdb.com/title/tt4939064/">https://www.imdb.com/title/tt4939064/</a></p>
         <p><a href="https://www.framestore.com/?language=en">https://www.framestore.com/?language=en</a></p>
 
+        <back-to-work-link />
 	</div>
 </template>
 
@@ -33,6 +34,7 @@
     import PageHeadings from '~/components/PageHeadings';
     import PageIntro from '~/components/PageIntro';
     import BodyCopy from '~/components/BodyCopy';
+    import BackToWorkLink from '~/components/BackToWorkLink';
     import ResponsiveYouTube from '~/components/ResponsiveYouTube';
     import content from '~/content/pages/content.mars-page';
 

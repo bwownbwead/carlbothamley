@@ -12,7 +12,17 @@ export default {
             link: "#"
         },
         {
-            area: "Work",
+            area: "Showreel",
+            type: "Video",
+            media: {
+                image: {
+                    src: "https://via.placeholder.com/1050x450"
+                }
+            },
+            link: "#"
+        },
+        {
+            area: "Just for Fun",
             type: "Quickview",
             media: {
                 image: {
@@ -22,24 +32,34 @@ export default {
             link: "#"
         },
         {
-            area: "Work",
-            type: "Quickview",
+            area: "Mars",
+            type: "Spotlight",
             media: {
                 image: {
                     src: "https://via.placeholder.com/1050x450"
                 }
             },
-            link: "#"
+            link: "/mars"
         },
         {
-            area: "Work",
-            type: "Quickview",
+            area: "Swire",
+            type: "Spotlight",
             media: {
                 image: {
                     src: "https://via.placeholder.com/1050x450"
                 }
             },
-            link: "#"
+            link: "/swire"
+        },
+        {
+            area: "Valkyria",
+            type: "Spotlight",
+            media: {
+                image: {
+                    src: "https://via.placeholder.com/1050x450"
+                }
+            },
+            link: "/valkyria"
         }
     ]
 }
