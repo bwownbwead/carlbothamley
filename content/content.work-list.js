@@ -21,11 +21,11 @@ export default {
             type: "Video",
             media: {
                 image: {
-                    src: "/images/work-list/work-1050.jpg",
+                    src: "/images/work-list/showreel-1050.jpg",
                     srcSet: {
-                        "480": "/images/work-list/work-480.jpg",
-                        "670": "/images/work-list/work-670.jpg",
-                        "1050": "/images/work-list/work-1050.jpg"
+                        "480": "/images/work-list/showreel-480.jpg",
+                        "670": "/images/work-list/showreel-670.jpg",
+                        "1050": "/images/work-list/showreel-1050.jpg"
                     }
                 }
             },

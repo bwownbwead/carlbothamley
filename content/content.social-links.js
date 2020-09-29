@@ -4,7 +4,7 @@ export default {
         {
             platform: "Email",
             icon: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.51 21.37"><rect x="0.59" y="6.85" width="4.58" height="14.52"></rect><path d="M126.31,4810.13c-2.62,0-4.27,1.42-4.57,2.42v-2.28h-5.15c.07,1.21,0,14.52,0,14.52h5.15v-7.86a3.31,3.31,0,0,1,.11-1.19,2.62,2.62,0,0,1,2.48-1.78c1.79,0,2.6,1.34,2.6,3.31v7.51h5.2v-8.07C132.12,4812.22,129.57,4810.13,126.31,4810.13Z" transform="translate(-108.62 -4803.41)"></path><path d="M111.41,4803.41a2.56,2.56,0,0,0-2.8,2.52,2.53,2.53,0,0,0,2.73,2.52h0a2.53,2.53,0,1,0,0-5Z" transform="translate(-108.62 -4803.41)"></path></svg>',
-            url: "http://google.com"
+            url: "mailto:hello@carlbothamley.com"
         },
         {
             platform: "YouTube",
