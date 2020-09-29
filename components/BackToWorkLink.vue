@@ -4,12 +4,12 @@
         class="
             block 
             pt-10
+            opacity-50
 
             lg:absolute 
             lg:top-0 
             lg:right-0
             lg:pt-0
-            lg:opacity-50
         "
     >
         &#8592; Back to all work

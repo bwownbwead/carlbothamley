@@ -1,10 +1,11 @@
 <template>
     <div class="
         site-header
-        mb-6
+        mb-10
         items-baseline
         justify-between
         sm:flex
+        lg:mb-6
     ">
         <logo-block />
         <navigation />

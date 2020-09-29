@@ -3,7 +3,7 @@
 		<nuxt-link
 			v-for="item in content.workItems"
 			:to="item.link"
-			class="block mb-2 md:mb-4 lg:mb-6" 
+			class="block mb-4 md:mb-6 lg:mb-8" 
 		>
 			<img 
 				:src="item.media.image.src"
