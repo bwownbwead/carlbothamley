@@ -6,7 +6,12 @@ export default {
             type: "Quickview",
             media: {
                 image: {
-                    src: "https://via.placeholder.com/1050x400"
+                    src: "/images/work-list/work-1050.jpg",
+                    srcSet: {
+                        "480": "/images/work-list/work-480.jpg",
+                        "670": "/images/work-list/work-670.jpg",
+                        "1050": "/images/work-list/work-1050.jpg"
+                    }
                 }
             },
             link: "#"
@@ -16,7 +21,12 @@ export default {
             type: "Video",
             media: {
                 image: {
-                    src: "https://via.placeholder.com/1050x400"
+                    src: "/images/work-list/work-1050.jpg",
+                    srcSet: {
+                        "480": "/images/work-list/work-480.jpg",
+                        "670": "/images/work-list/work-670.jpg",
+                        "1050": "/images/work-list/work-1050.jpg"
+                    }
                 }
             },
             link: "#"
@@ -26,7 +36,12 @@ export default {
             type: "Quickview",
             media: {
                 image: {
-                    src: "https://via.placeholder.com/1050x400"
+                    src: "/images/work-list/fun-1050.jpg",
+                    srcSet: {
+                        "480": "/images/work-list/fun-480.jpg",
+                        "670": "/images/work-list/fun-670.jpg",
+                        "1050": "/images/work-list/fun-1050.jpg"
+                    }
                 }
             },
             link: "#"
@@ -36,7 +51,12 @@ export default {
             type: "Spotlight",
             media: {
                 image: {
-                    src: "https://via.placeholder.com/1050x400"
+                    src: "/images/work-list/mars-1050.jpg",
+                    srcSet: {
+                        "480": "/images/work-list/mars-480.jpg",
+                        "670": "/images/work-list/mars-670.jpg",
+                        "1050": "/images/work-list/mars-1050.jpg"
+                    }
                 }
             },
             link: "/mars"
@@ -46,7 +66,12 @@ export default {
             type: "Spotlight",
             media: {
                 image: {
-                    src: "https://via.placeholder.com/1050x400"
+                    src: "/images/work-list/swire-1050.jpg",
+                    srcSet: {
+                        "480": "/images/work-list/swire-480.jpg",
+                        "670": "/images/work-list/swire-670.jpg",
+                        "1050": "/images/work-list/swire-1050.jpg"
+                    }
                 }
             },
             link: "/swire"
@@ -56,7 +81,12 @@ export default {
             type: "Spotlight",
             media: {
                 image: {
-                    src: "https://via.placeholder.com/1050x400"
+                    src: "/images/work-list/valkyria-1050.jpg",
+                    srcSet: {
+                        "480": "/images/work-list/valkyria-480.jpg",
+                        "670": "/images/work-list/valkyria-670.jpg",
+                        "1050": "/images/work-list/valkyria-1050.jpg"
+                    }
                 }
             },
             link: "/valkyria"

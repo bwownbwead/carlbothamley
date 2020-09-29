@@ -6,7 +6,14 @@
 			class="block mb-4 md:mb-6 lg:mb-8" 
 		>
 			<img 
-				:src="item.media.image.src"
+				v-if="item.media.image.src && item.media.image.srcSet"
+				:srcset="srcSetString(item.media.image.srcSet)"
+				sizes="
+					(min-width: 1200px) 800px,
+					(min-width: 1024px) 666px,
+            		100vw
+            	"
+            	:src="item.media.image.src"
 				:alt="item.area"
 				class="mb-1 lg:mb-2"
 			>
@@ -24,13 +31,21 @@
 	export default {
 		name: 'work-list',
 
-		components: {
-			
-		},
-
 		data() {
 			return {
 				content
+			}
+		},
+
+		methods: {
+			srcSetString(srcSetObj) {
+				let string = '';
+
+				for ( const key in srcSetObj) {
+					string += `${srcSetObj[key]} ${key}w,`
+				}
+
+				return string;
 			}
 		}
 	}
