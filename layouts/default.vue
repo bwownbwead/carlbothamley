@@ -4,7 +4,9 @@
 
         <div class="page-layout">
             <div class="side-bar">
-                <side-bar />
+                <side-bar 
+                    :isHomePage="isHomePage"
+                />
             </div>
             <div class="page-content">
                 <Nuxt />
@@ -25,6 +27,12 @@
         components: {
             SiteHeader,
             SideBar
+        },
+
+        computed: {
+            isHomePage() {
+                return this.$route.path === "/";
+            }
         }
     }
 </script>

@@ -1,5 +1,7 @@
 <template>
-    <div>
+    <div
+        :class="{ 'hidden lg:block': !isHomePage }"
+    >
         <h2 
             v-html="content.heading"
             class="text-3xl leading-8 mb-5"
@@ -25,6 +27,13 @@
             SocialLinks
         },
 
+        props: {
+            isHomePage: {
+                type: Boolean,
+                default: () => false
+            }
+        },
+
         data() {
             return {
                 content
@@ -32,7 +41,3 @@
         }
     }
 </script>
-
-<style lang="scss" scoped>
-    
-</style>
