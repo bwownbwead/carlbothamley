@@ -11,12 +11,10 @@
             class="max-w-xs mb-8" 
         >
 
-        <h3 
+        <page-intro
             v-if="content.intro"
-            class="text-xl font-semibold mb-6 lg:pr-10"
-        >
-            {{ content.intro }}
-        </h3>
+            :intro="content.intro"
+        />
 
         <body-copy
             :body="content.body"
@@ -27,12 +25,14 @@
 <script>
 
     import PageHeadings from '~/components/PageHeadings';
+    import PageIntro from '~/components/PageIntro';
     import BodyCopy from '~/components/BodyCopy';
     import content from '~/content/pages/content.about-page';
 
 	export default {
         components: {
             PageHeadings,
+            PageIntro,
             BodyCopy
         },
 
