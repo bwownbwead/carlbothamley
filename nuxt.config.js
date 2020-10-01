@@ -36,6 +36,7 @@ export default {
 	** https://nuxtjs.org/guide/plugins
 	*/
 	plugins: [
+		{ src: '~/plugins/vue-silent-box.js', mode: 'client' }
 	],
 	/*
 	** Auto import components
