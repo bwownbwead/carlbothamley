@@ -8,7 +8,7 @@
         <img 
             :src="content.image"
             alt="Carl Bothamley"
-            class="max-w-xs mb-8" 
+            class="w-full max-w-xs mb-8" 
         >
 
         <page-intro
