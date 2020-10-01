@@ -1,6 +1,6 @@
 <template>
     <div class="social-links border-t-4 pt-4 border-almostblack">
-        <ul class="flex">
+        <ul class="flex items-center">
             <li
                 v-for="social in content.socialLinks"
                 class="mr-4"
@@ -8,6 +8,7 @@
                 <a 
                     :key="social.platform"
                     :href="social.url"
+                    target="_blank" 
                 >
                     <span v-html="social.icon" />
                 </a>
