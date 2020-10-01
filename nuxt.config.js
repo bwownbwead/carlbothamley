@@ -31,6 +31,10 @@ export default {
 	*/
 	css: [
 	],
+
+	manifest: {
+		display: 'browser'
+	},
 	/*
 	** Plugins to load before mounting the App
 	** https://nuxtjs.org/guide/plugins
