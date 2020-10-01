@@ -35,7 +35,16 @@
         max-width: 300px;
     }
 
+    a {
+        transition: .3s opacity ease;
+
+        &:hover {
+            opacity: .5;
+        }
+    }
+
     .nuxt-link-exact-active {
         @apply font-semibold;
+        border-bottom: 2px solid currentColor;
     }
 </style>

@@ -1,6 +1,6 @@
 <template>
     <h3 
-        class="text-xl font-semibold mb-6 lg:pr-10"
+        class="text-xl font-semibold mb-6 lg:pr-10 leading-tight"
     >
         {{ intro }}
     </h3>

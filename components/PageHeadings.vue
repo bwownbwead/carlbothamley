@@ -2,7 +2,7 @@
     <div class="mb-8">
         <h1 
             v-if="heading"
-            class="text-2xl font-semibold"
+            class="text-2xl mb-2 font-semibold leading-tight"
         >
             {{ heading }}
         </h1>
