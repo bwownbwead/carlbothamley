@@ -36,10 +36,11 @@
     }
 
     a {
-        transition: .3s opacity ease;
+        border-bottom: 2px solid transparent;
+        transition: .3s border-color ease;
 
         &:hover {
-            opacity: .5;
+            border-bottom: 2px solid currentColor;
         }
     }
 
