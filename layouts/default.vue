@@ -94,4 +94,19 @@
             flex-grow: 1;
         }
     }
+
+    .page-enter-active,
+    .page-leave-active {
+        @screen lg {
+            transition-property: opacity;
+            transition-timing-function: ease-in-out;
+            transition-duration: 250ms;
+        }
+    }
+    .page-enter,
+    .page-leave-to {
+        @screen lg {
+            opacity: 0;
+        }
+    }
 </style>
