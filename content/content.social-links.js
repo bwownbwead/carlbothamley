@@ -4,7 +4,7 @@ export default {
         {
             platform: "Email",
             icon: '<svg xmlns="http://www.w3.org/2000/svg" overflow="visible" viewBox="0 0 512 352"><path d="M339.39 178.62L512 287.74V64.9zM0 64.9v222.84l172.61-109.12zM480 0H32C16.03 0 3.36 11.9.96 27.23L256 195.26 511.04 27.23C508.64 11.9 495.97 0 480 0zM310.08 197.95l-45.28 29.82c-2.69 1.76-5.73 2.62-8.8 2.62s-6.11-.86-8.8-2.62l-45.28-29.86L1.02 324.99C3.49 340.19 16.1 352 32 352h448c15.9 0 28.51-11.81 30.98-27.01l-200.9-127.04z"/></svg>',
-            url: "mailto:hello@carlbothamley.com"
+            url: "mailto:carlbothamley@gmail.com"
         },
         {
             platform: "YouTube",
@@ -14,7 +14,7 @@ export default {
         {
             platform: "Art Station",
             icon: '<svg xmlns="http://www.w3.org/2000/svg" overflow="visible" viewBox="0 0 105.8 93.1"><g><path d="M0 71.8l8.9 15.4c1.8 3.5 5.4 5.9 9.5 5.9h59.3L65.4 71.8H0zM105.8 71.9c0-2.1-.6-4.1-1.7-5.8L69.3 5.7C67.5 2.3 64 0 59.9 0H41.5l53.7 93 8.5-14.7c1.6-2.8 2.1-4 2.1-6.4zM56.7 56.6L32.8 15.1l-24 41.5z"/></g></svg>',
-            url: "https://www.artstation.com/cyaarl "
+            url: "https://www.artstation.com/cyaarl"
         },
         {
             platform: "Linked In",
