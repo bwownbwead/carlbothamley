@@ -56,7 +56,7 @@ export default {
                     thumbnail: "/images/1x1.gif"
                 },
                 {
-                    src: '/images/work/11_Cert.jpg',
+                    src: '/images/work/11_Quay.jpg',
                     thumbnail: "/images/1x1.gif"
                 },
                 {
