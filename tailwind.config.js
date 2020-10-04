@@ -7,7 +7,8 @@
 module.exports = {
 	theme: {
 		colors: {
-			'almostblack': '#181818'
+			'almostblack': '#181818',
+			'white': '#fff'
 		},
 
 		fontFamily: {

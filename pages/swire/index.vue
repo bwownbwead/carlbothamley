@@ -10,7 +10,10 @@
             :intro="content.intro"
         />
 
-        <!-- Carousel -->
+        <page-gallery
+            :modalImages="content.modalImages"
+            :galleryImage="content.galleryImage"
+        />
 
         <body-copy
             :body="content.body"
@@ -32,6 +35,7 @@
 <script>
 
     import PageHeadings from '~/components/PageHeadings';
+    import PageGallery from '~/components/PageGallery';
     import PageIntro from '~/components/PageIntro';
     import BodyCopy from '~/components/BodyCopy';
     import BackToWorkLink from '~/components/BackToWorkLink';
@@ -41,6 +45,7 @@
     export default {
         components: {
             PageHeadings,
+            PageGallery,
             PageIntro,
             BodyCopy,
             ResponsiveYouTube
