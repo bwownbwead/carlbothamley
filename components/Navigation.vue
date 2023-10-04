@@ -7,7 +7,7 @@
                 </nuxt-link>
             </li>
             <li class="mr-8 lg:mr-6">
-                <a href="/CV_CarlBothamley.pdf" target="_blank">CV</a>
+                <a href="/CVupdating.pdf" target="_blank">CV</a>
             </li>
             <li class="mr-8 lg:mr-6">
                 <nuxt-link to="/about">
